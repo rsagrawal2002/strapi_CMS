@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advantages",
+  "info": {
+    "singularName": "advantage",
+    "pluralName": "advantages",
+    "displayName": "Advantage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Descriptions": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "description.description",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

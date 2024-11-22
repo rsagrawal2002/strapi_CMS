@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "safety_monitorings",
+  "info": {
+    "singularName": "safety-monitoring",
+    "pluralName": "safety-monitorings",
+    "displayName": "Safety Monitoring System",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "Feature": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "feature.feature"
+    }
+  }
+}
